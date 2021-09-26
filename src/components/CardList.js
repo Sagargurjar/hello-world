@@ -4,6 +4,9 @@ import {robots} from '../robots';
 
 
 const CardList  = ({robots}) =>{
+    if (false){
+        throw new Error('noooooooooooo');
+    }else{
     return (
         <div>
         {robots.map((user, i) => { 
@@ -11,6 +14,7 @@ const CardList  = ({robots}) =>{
     })} 
     </div>
     );
+}
 }
 
 export default CardList
